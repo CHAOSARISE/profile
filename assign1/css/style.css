@@ -1,0 +1,108 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 40px;
+  text-decoration: none;
+}
+.fb{
+    float: center;
+}
+
+li a:hover {
+  background-color: #111;
+}
+ .image{
+   float: right;
+   width: 25;
+   height: 500;
+ }
+
+.dp
+{
+  float:right;
+  border-radius: 50%;
+  height: 50%;
+  width: auto;
+}
+.k1
+{
+   background-image:url('../images/kamran cover.jpg');
+   margin: 0px ;
+  padding: 50px 50px;
+
+}
+table{
+width:100%;
+
+}
+table tr:nth-child(even)
+{
+background-color:grey;
+}
+table tr:nth-child(odd){
+background-color:white;
+}
+
+table,th,td {
+
+border: 3px solid black;
+border-collapse: collapse;
+padding:34px;
+text-align: center;
+}
+table#t01 td,tr{
+ padding 10px;
+ text align:center;
+ border-bottom-color grey;
+
+}
+table#t01 th{
+background-color:black;
+color:white;
+}
+table#t01 tr:nth-child(even){
+
+background-color:grey;
+
+}
+table#t01 tr:nth-child(odd){
+background-color:white;
+}
+.educationimg
+{
+   background-image:url('../images/education.jpg');
+}
+  .footer{
+    background-color: #f1f1f1;
+padding: 5px;
+text-align: center;
+  }
+  .widget
+  {
+    background-color: #fff;
+    font-family: latin;
+    font-size: 8px;
+    font-weight: 200;
+    color: #878787;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+  }
+  .kh{
+     background-image:url('../images/alone.jpg');
+     margin: 0px ;
+     background-repeat: no-repeat;
+  }
